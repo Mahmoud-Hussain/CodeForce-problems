@@ -9,7 +9,7 @@ int main(){
 
     for(int i=0; i<n; i++){
         cin>>f;
-        if(f=="++x" || f=="x++"){
+        if(f=="++X" || f=="X++"){
             x++;
         }
         else{
