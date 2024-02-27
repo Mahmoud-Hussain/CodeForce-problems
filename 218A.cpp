@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cctype>
 using namespace std;
 
 int main(){
@@ -7,7 +8,7 @@ int main(){
 
     for(int i=0;i<word.length();i++){
         if(i==0){
-            cout<<char(word[i]-'0');
+            cout<<char(toupper(word[i]));
         }
         else cout<<word[i];
     }
